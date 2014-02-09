@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01702A9918A8464100C33385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702A9818A8464100C33385 /* Foundation.framework */; };
+		01702A9B18A8464100C33385 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702A9A18A8464100C33385 /* CoreGraphics.framework */; };
+		01702A9D18A8464100C33385 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702A9C18A8464100C33385 /* UIKit.framework */; };
+		01702AA318A8464100C33385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01702AA118A8464100C33385 /* InfoPlist.strings */; };
+		01702AA518A8464100C33385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01702AA418A8464100C33385 /* main.m */; };
+		01702AA918A8464100C33385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01702AA818A8464100C33385 /* AppDelegate.m */; };
+		01702AAC18A8464100C33385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01702AAA18A8464100C33385 /* Main.storyboard */; };
+		01702AAF18A8464100C33385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01702AAE18A8464100C33385 /* ViewController.m */; };
+		01702AB118A8464100C33385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01702AB018A8464100C33385 /* Images.xcassets */; };
+		01702AB818A8464100C33385 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702AB718A8464100C33385 /* XCTest.framework */; };
+		01702AB918A8464100C33385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702A9818A8464100C33385 /* Foundation.framework */; };
+		01702ABA18A8464100C33385 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01702A9C18A8464100C33385 /* UIKit.framework */; };
+		01702AC218A8464100C33385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01702AC018A8464100C33385 /* InfoPlist.strings */; };
+		01702AC418A8464100C33385 /* Trip_Cost_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01702AC318A8464100C33385 /* Trip_Cost_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01702ABB18A8464100C33385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01702A8D18A8464100C33385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01702A9418A8464100C33385;
+			remoteInfo = "Trip Cost Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01702A9518A8464100C33385 /* Trip Cost Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Cost Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01702A9818A8464100C33385 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01702A9A18A8464100C33385 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01702A9C18A8464100C33385 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01702AA018A8464100C33385 /* Trip Cost Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trip Cost Calculator-Info.plist"; sourceTree = "<group>"; };
+		01702AA218A8464100C33385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01702AA418A8464100C33385 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01702AA618A8464100C33385 /* Trip Cost Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trip Cost Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		01702AA718A8464100C33385 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01702AA818A8464100C33385 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01702AAB18A8464100C33385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01702AAD18A8464100C33385 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01702AAE18A8464100C33385 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01702AB018A8464100C33385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01702AB618A8464100C33385 /* Trip Cost CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip Cost CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01702AB718A8464100C33385 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01702ABF18A8464100C33385 /* Trip Cost CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trip Cost CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		01702AC118A8464100C33385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01702AC318A8464100C33385 /* Trip_Cost_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trip_Cost_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01702A9218A8464100C33385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702A9B18A8464100C33385 /* CoreGraphics.framework in Frameworks */,
+				01702A9D18A8464100C33385 /* UIKit.framework in Frameworks */,
+				01702A9918A8464100C33385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01702AB318A8464100C33385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702AB818A8464100C33385 /* XCTest.framework in Frameworks */,
+				01702ABA18A8464100C33385 /* UIKit.framework in Frameworks */,
+				01702AB918A8464100C33385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01702A8C18A8464100C33385 = {
+			isa = PBXGroup;
+			children = (
+				01702A9E18A8464100C33385 /* Trip Cost Calculator */,
+				01702ABD18A8464100C33385 /* Trip Cost CalculatorTests */,
+				01702A9718A8464100C33385 /* Frameworks */,
+				01702A9618A8464100C33385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01702A9618A8464100C33385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01702A9518A8464100C33385 /* Trip Cost Calculator.app */,
+				01702AB618A8464100C33385 /* Trip Cost CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01702A9718A8464100C33385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01702A9818A8464100C33385 /* Foundation.framework */,
+				01702A9A18A8464100C33385 /* CoreGraphics.framework */,
+				01702A9C18A8464100C33385 /* UIKit.framework */,
+				01702AB718A8464100C33385 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01702A9E18A8464100C33385 /* Trip Cost Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				01702AA718A8464100C33385 /* AppDelegate.h */,
+				01702AA818A8464100C33385 /* AppDelegate.m */,
+				01702AAA18A8464100C33385 /* Main.storyboard */,
+				01702AAD18A8464100C33385 /* ViewController.h */,
+				01702AAE18A8464100C33385 /* ViewController.m */,
+				01702AB018A8464100C33385 /* Images.xcassets */,
+				01702A9F18A8464100C33385 /* Supporting Files */,
+			);
+			path = "Trip Cost Calculator";
+			sourceTree = "<group>";
+		};
+		01702A9F18A8464100C33385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01702AA018A8464100C33385 /* Trip Cost Calculator-Info.plist */,
+				01702AA118A8464100C33385 /* InfoPlist.strings */,
+				01702AA418A8464100C33385 /* main.m */,
+				01702AA618A8464100C33385 /* Trip Cost Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01702ABD18A8464100C33385 /* Trip Cost CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				01702AC318A8464100C33385 /* Trip_Cost_CalculatorTests.m */,
+				01702ABE18A8464100C33385 /* Supporting Files */,
+			);
+			path = "Trip Cost CalculatorTests";
+			sourceTree = "<group>";
+		};
+		01702ABE18A8464100C33385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01702ABF18A8464100C33385 /* Trip Cost CalculatorTests-Info.plist */,
+				01702AC018A8464100C33385 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01702A9418A8464100C33385 /* Trip Cost Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01702AC718A8464200C33385 /* Build configuration list for PBXNativeTarget "Trip Cost Calculator" */;
+			buildPhases = (
+				01702A9118A8464100C33385 /* Sources */,
+				01702A9218A8464100C33385 /* Frameworks */,
+				01702A9318A8464100C33385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trip Cost Calculator";
+			productName = "Trip Cost Calculator";
+			productReference = 01702A9518A8464100C33385 /* Trip Cost Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01702AB518A8464100C33385 /* Trip Cost CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01702ACA18A8464200C33385 /* Build configuration list for PBXNativeTarget "Trip Cost CalculatorTests" */;
+			buildPhases = (
+				01702AB218A8464100C33385 /* Sources */,
+				01702AB318A8464100C33385 /* Frameworks */,
+				01702AB418A8464100C33385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01702ABC18A8464100C33385 /* PBXTargetDependency */,
+			);
+			name = "Trip Cost CalculatorTests";
+			productName = "Trip Cost CalculatorTests";
+			productReference = 01702AB618A8464100C33385 /* Trip Cost CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01702A8D18A8464100C33385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = n/a;
+				TargetAttributes = {
+					01702AB518A8464100C33385 = {
+						TestTargetID = 01702A9418A8464100C33385;
+					};
+				};
+			};
+			buildConfigurationList = 01702A9018A8464100C33385 /* Build configuration list for PBXProject "Trip Cost Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01702A8C18A8464100C33385;
+			productRefGroup = 01702A9618A8464100C33385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01702A9418A8464100C33385 /* Trip Cost Calculator */,
+				01702AB518A8464100C33385 /* Trip Cost CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01702A9318A8464100C33385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702AB118A8464100C33385 /* Images.xcassets in Resources */,
+				01702AA318A8464100C33385 /* InfoPlist.strings in Resources */,
+				01702AAC18A8464100C33385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01702AB418A8464100C33385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702AC218A8464100C33385 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01702A9118A8464100C33385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702AAF18A8464100C33385 /* ViewController.m in Sources */,
+				01702AA918A8464100C33385 /* AppDelegate.m in Sources */,
+				01702AA518A8464100C33385 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01702AB218A8464100C33385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01702AC418A8464100C33385 /* Trip_Cost_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01702ABC18A8464100C33385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01702A9418A8464100C33385 /* Trip Cost Calculator */;
+			targetProxy = 01702ABB18A8464100C33385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01702AA118A8464100C33385 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01702AA218A8464100C33385 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01702AAA18A8464100C33385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01702AAB18A8464100C33385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01702AC018A8464100C33385 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01702AC118A8464100C33385 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01702AC518A8464200C33385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01702AC618A8464200C33385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01702AC818A8464200C33385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trip Cost Calculator/Trip Cost Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Trip Cost Calculator/Trip Cost Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01702AC918A8464200C33385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trip Cost Calculator/Trip Cost Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Trip Cost Calculator/Trip Cost Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01702ACB18A8464200C33385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trip Cost Calculator.app/Trip Cost Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trip Cost Calculator/Trip Cost Calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Trip Cost CalculatorTests/Trip Cost CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		01702ACC18A8464200C33385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trip Cost Calculator.app/Trip Cost Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trip Cost Calculator/Trip Cost Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Trip Cost CalculatorTests/Trip Cost CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01702A9018A8464100C33385 /* Build configuration list for PBXProject "Trip Cost Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01702AC518A8464200C33385 /* Debug */,
+				01702AC618A8464200C33385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01702AC718A8464200C33385 /* Build configuration list for PBXNativeTarget "Trip Cost Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01702AC818A8464200C33385 /* Debug */,
+				01702AC918A8464200C33385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01702ACA18A8464200C33385 /* Build configuration list for PBXNativeTarget "Trip Cost CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01702ACB18A8464200C33385 /* Debug */,
+				01702ACC18A8464200C33385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01702A8D18A8464100C33385 /* Project object */;
+}
