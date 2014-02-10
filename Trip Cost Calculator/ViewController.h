@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *pricePerGallon;
+@property (weak, nonatomic) IBOutlet UITextField *mpg;
+@property (weak, nonatomic) IBOutlet UITextField *distance;
+@property (weak, nonatomic) IBOutlet UILabel *totalCost;
+
+- (IBAction)calculate:(id)sender;
 @end
